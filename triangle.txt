@@ -1,0 +1,18 @@
+type Triangle {
+description = "Triangle using PRG, LJU and BRA hosts."
+HostWithTwoPorts {
+id = "h1"
+host.location = "prg"
+}
+HostWithTwoPorts {
+id = "h2"
+host.location = "lju"
+}
+HostWithTwoPorts {
+id = "h3"
+host.location = "bra"
+}
+link { id = "l1" }
+link { id = "l2" }
+link { id = "l3" }
+}
